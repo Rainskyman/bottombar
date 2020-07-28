@@ -1,0 +1,2 @@
+<!--pages/index2/index2.wxml-->
+<Bottombar current="{{1}}" />

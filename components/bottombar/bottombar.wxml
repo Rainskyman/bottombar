@@ -1,0 +1,7 @@
+<!--components/bottombar/bottombar.wxml-->
+<view class="bottombar">
+  <view class="item" wx:for='{{list}}' bindtap="handleClick" data-path="{{item.pagePath}}">
+    <image src="{{index==current?item.selectedIconPath:item.iconPath}}"></image>
+    <text>{{item.text}}</text>
+  </view>
+</view>
